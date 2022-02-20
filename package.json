@@ -12,12 +12,13 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.6",
+    "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test  --watchAll --env=jsdom",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -37,6 +38,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.2",
+    "jest-watch-typeahead": "^1.0.0",
     "postcss": "^8.4.6",
     "tailwindcss": "^3.0.23"
   }
